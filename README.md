@@ -14,8 +14,11 @@ Informational documents:
  - Light sensor: https://learn.adafruit.com/photocells/using-a-photocell
 
 The OLED is connected to GND(POWER)[->GND], 5V(POWER)[->VCC], and D8[->RES], D9[->DC], D10[->CS], D11[->D1], & D13[->D0].
+
 The DHT11 is connected to GND, 5V, & D7.
+
 The light sensor is connected 5V, GND(POWER), & A0.
+
 The MQ137 is connected D-GND, D4, & A5.
 
 The program outputs to serial so a python program (coming soon) can read the values and then store in a database and plot it to a webpage.
