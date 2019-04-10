@@ -66,7 +66,7 @@ void loop(void) {
   int nh3p=(int(float(nh3)/1024*100)); //convert it into a percent
   Serial.print("NH3 % = "); // make serial output human-readable
   Serial.println(nh3p);
-  NH3p=nh3p;
+  NH3p=String(nh3p);
    
   
   u8g.firstPage();  
